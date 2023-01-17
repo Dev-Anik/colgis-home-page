@@ -1,0 +1,189 @@
+<footer
+class="dark:bg-black bg-nav-color pb-2 pt-6 md:pt-12 md:pb-4 w-full border-0"
+>
+<div
+  class="c-footer container mx-auto grid grid-cols-3 gap-4 justify-between px-[2rem] md:gap-16 md:flex md:justify-between md:items-start md:px-[3rem] lg:px-[5rem]"
+>
+<!-- footer menu starts here -->
+
+  <ul
+    class="footer-link flex flex-col gap-4 justify-start items-start w-full text-white row-start-2 col-start-1 col-end-2 md:w-auto"
+  >
+    <li class="min-w-max">
+      <a
+        href="index.html"
+        class="block relative py-1.5 nav-menu text-sm md:text-base"
+        >Features</a
+      >
+    </li>
+    <li class="min-w-max">
+      <a
+        href="work-style.html"
+        class="block relative py-1.5 nav-menu text-sm md:text-base"
+        >Work Style</a
+      >
+    </li>
+    <li class="min-w-max">
+      <a
+        href="BtoJ-hrd.html"
+        class="block relative py-1.5 nav-menu text-sm md:text-base"
+        >BtoJ HRD</a
+      >
+    </li>
+    <li class="min-w-max">
+      <a
+        href="about-us.html"
+        class="block relative py-1.5 nav-menu text-sm md:text-base"
+        >About Us</a
+      >
+    </li>
+  </ul>
+
+
+  <!-- footer form starts here -->
+
+  <form class="send-message row-start-1 col-start-1 col-end-4 w-[100%] md:w-[75%]" action="thanks-page.html" id="" method="POST""  onsubmit="return sendMail()">
+    <div class="mb-4">
+      <input
+        class="dark:bg-black bg-transparent border border-white w-full px-2 py-2 rounded text-sm text-white md:text-base"
+        type="text"
+        name="name"
+        placeholder="Name"
+        id="name"
+        
+      />
+      <span id="nameError" class="text-red-400 text-xs md:text-sm"></span>
+    </div>
+
+    <div class="mb-4">
+      <input
+        class="dark:bg-black bg-transparent border border-white w-full px-2 py-2 rounded text-sm text-white md:text-base"
+        type="text"
+        name="email"
+        id="email"
+        placeholder="Email"
+        
+      />
+      <span
+        id="emailError"
+        class="text-red-400 text-xs md:text-sm"
+      ></span>
+    </div>
+
+    <div class="mb-4">
+      <input
+        class="dark:bg-black bg-transparent border border-white w-full px-2 py-2 rounded text-sm text-white md:text-base"
+        type="text"
+        name="subject"
+        id="subject"
+        
+        placeholder="Subject"
+      />
+      <span
+        id="subjectError"
+        class="text-red-400 text-xs md:text-sm"
+      ></span>
+    </div>
+
+    <div class="mb-4">
+      <textarea
+        class="dark:bg-black bg-transparent border border-white w-full h-28 px-2 py-2 rounded text-sm text-white md:text-base"
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        
+        placeholder="Message"
+      ></textarea>
+      <span
+        id="messageError"
+        class="text-red-400 text-xs md:text-sm"
+      ></span>
+    </div>
+
+    <!-- send button starts here -->
+
+      <button
+        class="flex flex-row items-center justify-center gap-2 bg-[#f7f7f7] transition-all duration-300 ease-in-out drop-shadow-xl hover:bg-white hover:drop-shadow-2xl text-nav-color font-bold py-2 px-8 md:px-10 md:py-2 rounded"
+      >
+        <svg
+          class="w-6 h-8"
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-send"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"
+          />
+        </svg>
+        Send
+      </button>
+      
+  </form>
+
+  <!-- address section starts here -->
+
+  <div class="address row-start-2 col-start-2 col-end-4 md:w-auto">
+    <ul class="text-white flex flex-col gap-4 md:gap-8">
+      <li class="flex gap-2 items-center justify-start md:gap-4">
+        <img
+          class="w-[1.25rem] md:w-auto md:mt-0"
+          src="assets/location.png"
+          alt=""
+        />
+        <p
+          class="text-sm col-span-5 md:text-base flex items-center justify-start"
+        >
+          Sahera Plaza(1st floor), 750/A Kamal Soroni Road, Dhaka 1216,
+          Bangladesh.
+        </p>
+      </li>
+
+      <li class="flex gap-2 items-center justify-start md:gap-4">
+        <img
+          class="w-[1.25rem] md:w-auto md:mt-0"
+          src="assets/telephone.png"
+          alt=""
+        />
+        <p
+          class="text-sm col-span-5 md:text-base flex items-center justify-start"
+        >
+          (+88) 01715096660
+        </p>
+      </li>
+
+
+      <li class="flex gap-2 items-center justify-start md:gap-4">
+        <img
+          class="w-[1.25rem] md:w-auto md:mt-0"
+          src="assets/facebook.png"
+          alt=""
+        />
+        <a
+          href="https://www.facebook.com/colgisBD"
+          class="text-sm col-span-5 md:text-base flex items-center justify-start"
+          >facebook.com/colgisBD</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="container mx-auto px-[2rem] md:px-[3rem] lg:px-[5rem]">
+  <hr
+    class="w-auto h-0.5 mt-8 mb-2 mid:mx-16 md:mt-12 mid:mb-4 bg-white"
+  />
+</div>
+
+<div
+  class="container mx-auto flex gap-1 justify-between items-center mt-2 md:mt-4 px-[2rem] md:px-[3rem] lg:px-[5rem]"
+>
+  <p class="text-white text-xs md:text-sm">
+    Copyright ©️ 2023 Colgis BD Ltd. All Rights Reserved.
+  </p>
+  <img src="assets/footer-logo.png" class="w-[4.5rem] sm:w-auto" alt="" />
+</div>
+</footer>
